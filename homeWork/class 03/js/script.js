@@ -40,13 +40,18 @@
 
 // let inputBirthYear = prompt("Enter your year of birth:");
 // parseInt(inputBirthYear);
-// if(!isNaN(inputBirthYear) == true) {
-// let returnAge = calculateAge(inputBirthYear, year);
-
-// console.log(`Your age is ${returnAge}.`);
+// if ((inputBirthYear > year) === false) {
+//   if(!isNaN(inputBirthYear) == true) {
+//     let returnAge = calculateAge(inputBirthYear, year);
+    
+//     console.log(`Your age is ${returnAge}.`);
+//     }
+//     else {
+//         console.log("You didn't enter a number!");
+//     }
 // }
 // else {
-//     console.log("You didn't enter a number!");
+//   console.log("Your entered year was higher than the current one!");
 // }
 
 
