@@ -88,25 +88,24 @@
 
 // }
 
-    // let numbers = [1, 2, 3, 4, 5];
+//     let numbers = [1, 2, 3, 4, 5];
 //     let returnNumbers = sumNumbers(numbers);
     
 //     console.log(returnNumbers);
 
-//     let numbers = [1, 2, 3, "Bottle", 5];
+//     let numbers1 = [1, 2, 3, "Bottle", 5];
 // function validateNumbers(numbers) {
 //     for (let i = 0; i <= numbers.length; i++) {
 //         if (!isNaN(numbers[i]) === true) {
 //             console.log(`${numbers[i]} is a valid number!`);
 //         }
 //         else if (isNaN(numbers[i]) === true) {
-//             console.log(`${numbers[i]} is not a number!`);
-//             break;
+//             return(`${numbers[i]} is not a number!`);
 //         }
 //     }
 // }
 
-// let returnValidatedNumbers = validateNumbers(numbers);
+// let returnValidatedNumbers = validateNumbers(numbers1);
 // console.log(returnValidatedNumbers);
 
 
