@@ -6,13 +6,13 @@ let email = document.getElementById("email");
 let password = document.getElementById("password");
 let loginInformation = "";
 
-function getLoginInfo(loginInformation, firstName, lastName, email, password) {
-    loginInformation += (`${firstName.value} ${lastName.value} ${email.value} ${password}`);
-    return loginInformation;
+function getLoginInfo() {
+    loginInformation = `${firstName.value} ${lastName.value} ${email.value} ${password.value}`;
+    paragraph.innerText = loginInformation;
+    firstName.value = "";
+    lastName.value = "";
+    email.value = "";
+    password.value = "";
 }
 
-button.addEventListener("click", getLoginInfo(loginInformation, firstName, lastName, email, password))
-// button.addEventListener("click", function() {
-//     alert("clicked");
-// })
-paragraph.innerText = loginInformation;
+button.addEventListener("click", getLoginInfo);
