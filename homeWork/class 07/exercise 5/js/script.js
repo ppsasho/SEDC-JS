@@ -20,8 +20,7 @@ function studentCreation(studentName, studentLastName, studentAge) {
 }
 }
 
-button.addEventListener("click", function(e) {
-    e.preventDefault();
+button.addEventListener("click", function() {
     Number(userAge.value);
     if (userName.value === "" || lastName.value === "" || isNaN(userAge.value) === true){
         alert("Please check that all your credentials are entered correctly.");
