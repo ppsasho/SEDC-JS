@@ -16,7 +16,7 @@ function studentCreation(studentName, studentLastName, studentAge) {
         userName.value = "";
         userLastName.value = "";
         userAge.value = "";
-        return `The student ${this.name} ${this.lastName}, age ${this.age} has been created. `;
+        return `The student ${this.name} ${this.lastName}, age ${this.age} has been added to the student list. `;
 }
 }
 
