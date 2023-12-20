@@ -20,14 +20,14 @@ function studentCreation(studentName, studentLastName, studentAge) {
 }
 }
 
-button.addEventListener("click", function() {
+button.addEventListener("click", function(e) {
+    e.preventDefault();
     Number(userAge.value);
     if (userName.value === "" || lastName.value === "" || isNaN(userAge.value) === true){
         alert("Please check that all your credentials are entered correctly.");
     }
     else {
         let student = new studentCreation(userName, userLastName, userAge);
-        let students = [];
         students.push(student);
         console.log(student.studentInfo());
         console.log(students);
