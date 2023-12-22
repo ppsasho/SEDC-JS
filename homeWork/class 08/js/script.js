@@ -59,22 +59,23 @@ let button = document.getElementById("button");
 // let input2 = Number(prompt("Enter your second number:"));
 
 // function findCloserNumber(input1, input2) {
-//     let number = 100
+//     const number = 100
 
 //     if (input1 < 0 || input2 < 0) {
 //         alert("Please enter a positive number:");
 //     }
 
-//     let absolute = Math.abs(number - input1);
-//     let absolute1 = Math.abs(number - input2);
-
-//     if(absolute < absolute1) {
-//         return  `First ${input1}, Second ${input2}. ${input1} is closer to 100.`;
-//     }
 //     else {
-//         return  `First ${input1}, Second ${input2}. ${input2} is closer to 100.`;
-//     }
+//         let num1 = Math.abs(number - input1);
+//         let num2 = Math.abs(number - input2);
     
+//         if(num1 < num2) {
+//             return  `First ${input1}, Second ${input2}. ${input1} is closer to 100.`;
+//         }
+//         else {
+//             return  `First ${input1}, Second ${input2}. ${input2} is closer to 100.`;
+//         }
+//     }
 // }
 // console.log(findCloserNumber(input1, input2));
 
@@ -184,10 +185,12 @@ let button = document.getElementById("button");
 
 // let newArray = [false, 0, undefinedValue, '', true, 3.14, '0', -42, {}, 12n];
 
-// for (let item of newArray) {
-//     if ()
+// for (let i = newArray.length; i >= 0; i--) {
+//     if (newArray[i] == false) {
+//         newArray.splice(i, 1);
+//     }
 // }
-
+// console.log(newArray);
 
 
 //  10
