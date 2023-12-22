@@ -7,7 +7,6 @@ let body = document.getElementById("body");
 let specificButton = document.getElementById("singleExerciseButton");
 let funnyButton = document.getElementById("colorButton");
 let funnyButton2 = document.getElementById("colorButton1");
-let space = document.getElementById("special");
 funnyButton2.style.visibility = "hidden";
 body.style.backgroundColor = "black";
 body.style.color = "white";
