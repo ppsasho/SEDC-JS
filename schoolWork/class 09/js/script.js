@@ -59,3 +59,5 @@ button.addEventListener("click", function () {
     console.log(person.name, person.lastName, person.phoneNumber);
   }
 });
+//https://stackoverflow.com/questions/684672/how-do-i-loop-through-or-enumerate-a-javascript-object
+//https://stackoverflow.com/questions/64291475/why-keys-of-object-is-just-first-character
