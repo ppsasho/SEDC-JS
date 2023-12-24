@@ -1,0 +1,12 @@
+body {
+    background-color: #1d558c;
+    font-family: sans-serif;
+    color: white;
+}
+table {
+    background-color: #36393b;
+}
+td {
+    color: white;
+    font-weight: bolder;
+}
