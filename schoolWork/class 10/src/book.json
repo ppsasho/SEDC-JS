@@ -1,0 +1,15 @@
+{
+  "title": "Harry Potter",
+  "author": "J.K. Rowling",
+  "publicationYear": "1997",
+  "fiction": "true",
+  "genres": ["fantasy", "sci-fi", "horror", "comedy"],
+  "publisher": {
+    "name": "Rayner Stephens Unwin",
+    "Location": "London"
+  },
+  "ratings": {
+    "reviews": 200,
+    "avarage": 4.7
+  }
+}
