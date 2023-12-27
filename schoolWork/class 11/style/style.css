@@ -1,0 +1,25 @@
+#myMain {
+  display: grid;
+  background-color: rgb(59, 56, 56);
+  border: 6px inset rgb(196, 65, 65);
+  color: white;
+  width: 60%;
+  font-weight: bold;
+  font-family: arial;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+.joke-container {
+  border: 5px solid #102a31;
+}
+
+.question {
+  background-color: rgb(89, 89, 223);
+  padding: 5px;
+}
+
+.answer {
+  background-color: rgb(36, 124, 36);
+  padding: 5px;
+  font-weight: bolder;
+}
