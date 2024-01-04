@@ -21,7 +21,6 @@ let equals = document.getElementById('equals');
 
 display.innerHTML = '';
 
-let equation = '';
 
 let operators = [
     '/',
