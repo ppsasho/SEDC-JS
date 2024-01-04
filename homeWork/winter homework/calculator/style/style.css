@@ -1,18 +1,32 @@
+
+body {
+    background-color: rgb(47, 92, 175);
+    font-family: arial;
+}
+h1 {
+    color: white;
+}
 button{
     border-radius: 0;
     padding: none;
     border-style: none;
     border: 1px solid black;
+    font-size: xx-large;
 
 }
+button:active{
+    background-color: rgb(131, 124, 124);
+}
 .container {
-    width: 40em;
     margin: 0;
     height: 100%;
     display: flex;
 }
 .calculator {
+    width: 25vw;
+    height: 35vw;
     display: grid;
+    border: 8px outset rgb(55, 10, 102);
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
@@ -24,9 +38,15 @@ button{
                         'dec zero zero equals';
 }
 #display {
+    display: flex;
     background-color: black;
     color: white;
     grid-area: view; 
+    font-size: x-large;
+    text-align:end ;
+}
+#display->:first-child {
+    float: right;
 }
 #clear {
     grid-area: clear;
@@ -84,5 +104,9 @@ button{
 }
 
 .special-function {
+    color: white;
     background-color: rgb(223, 151, 75);
+}
+.special-function:active {
+    background-color: rgb(128, 88, 47);
 }
