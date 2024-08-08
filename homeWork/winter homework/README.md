@@ -1,8 +1,8 @@
 # Hangman
 
-During the holidays, playing games is a favorite pastime for many of us. Why not create your own and practice all the cool things you’ve learned so far? Let’s get started with a classic: Hangman.
+During the holidays, playing games is a favorite pastime for many of us. Why not build your own and practice all the cool things you’ve learned so far? Let’s get started with a classic: Hangman.
 
-Create a web page that allows the user to play the hangman game against the computer.
+A web page will allow the user to play the hangman game against the computer.
 
 ![hangman.png](assets%2Fhangman.png)
 
@@ -25,15 +25,12 @@ Programmatically, the game's state at any moment can be represented using a few 
 The number of lives and the word are set at the beginning of the game. The only thing that changes during the game is the guessed letters, which drive all other game outcomes.
 
 # Standard Calculator
-
-Now it’s time for some more challenges! Create a web calculator with all the standard features.
+A web calculator with all the standard features.
 
 ![calculator.png](assets%2Fcalculator.png)
 
-- The calculator should have buttons for numbers, just like a real-life calculator—no text inputs.
-- It should include buttons for operations: Add, Subtract, Multiply, and Divide.
-- Standard buttons for equals, decimal point, and reset (C) should be included.
-- The calculator should have a display that shows the numbers being entered and the results, similar to real calculators.
-- The calculator should show an error message if a number is too large or if there’s an attempt to divide by zero.
-
-**NOTE:** The `eval()` function is not allowed!
+- The calculator will have buttons for numbers, just like a real-life calculator with no text inputs.
+- It will include buttons for operations: Add, Subtract, Multiply, and Divide.
+- Standard buttons for equals, decimal point, and reset (C) will be included.
+- The calculator will have a display that shows the numbers being entered and the results, similar to real calculators.
+- The calculator will show an error message if a number is too large or if there’s an attempt to divide by zero.
