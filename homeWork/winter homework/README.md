@@ -1,8 +1,6 @@
 # Hangman
 
-During the holidays, playing games is a favorite pastime for many of us. Why not build your own and practice all the cool things you’ve learned so far? Let’s get started with a classic: Hangman.
-
-A web page will allow the user to play the hangman game against the computer.
+A web page that will allow the user to play the hangman game against the computer.
 
 ![hangman.png](assets%2Fhangman.png)
 
